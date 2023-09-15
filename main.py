@@ -1,14 +1,12 @@
 import paneltime as pt
 import pandas as pd
-import numpy as np
-import pickle
 
 
 pt.options.pqdkm.set([1,1,0,2,2])
 pt.options.fixed_random_group_eff.set(0)
 pt.options.fixed_random_time_eff.set(0)
 pt.options.EGARCH.set(False)
-pt.options.ARMA_round.set(16)
+
 
 
 
